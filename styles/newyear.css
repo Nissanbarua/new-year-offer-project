@@ -45,3 +45,38 @@ body {
   line-height: 95px;
   text-align: center;
 }
+/* main section style */
+.second-section-container{
+margin: 120px auto;
+height: 806px;
+width: 802px;
+align-items: center;
+}
+.second-section-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.second-section-content h1{
+color: rgb(255, 0, 0);
+font-size: 88px;
+font-weight: 700;
+/* line-height: 107px; */
+margin-bottom: 48px;
+
+}
+.second-section-content p{
+    color: rgb(255, 0, 0);
+font-size: 24px;
+font-weight: 500;
+margin-bottom: 16px;
+}
+.second-section-content h3{
+    color: rgb(7, 2, 17);
+font-family: Inter;
+font-size: 48px;
+font-weight: 700;
+/* line-height: 58px; */
+margin-bottom: 48px;
+}
