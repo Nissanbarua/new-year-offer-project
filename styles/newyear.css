@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 body {
   font-family: "Merriweather", serif;
 }
@@ -128,6 +129,7 @@ body {
 }
 /* address style  */
 .address-section-container {
+  border: none;
   border-radius: 16px;
   background: linear-gradient(
     180deg,
@@ -136,7 +138,6 @@ body {
   );
   width: 1320px;
   height: 482px;
-  border: 2px solid red;
   margin: 0 auto;
   margin-top: 120px;
 }
@@ -157,9 +158,80 @@ body {
   padding: 16px 32px 16px 32px;
   border-radius: 8px;
   border: none;
- background: rgb(255, 0, 0);
+  background: rgb(255, 0, 0);
   color: rgb(255, 255, 255);
   font-family: Inter;
   font-size: 20px;
   font-weight: 700;
+}
+/* offer styles */
+.offer-section-container {
+  width: 1320px;
+  height: 463px;
+  display: flex;
+  margin: 0 auto;
+}
+.left-offer-content {
+  width: 33%;
+  margin: 104px auto;
+}
+.left-offer-content h4 {
+  color: rgb(255, 0, 0);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+.left-offer-content h2 {
+  color: rgb(7, 2, 17);
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  margin-top: 16px;
+}
+.left-offer-content p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 22px;
+}
+.middle-offer-content {
+  width: 33%;
+  border-radius: 50%;
+  border: 15px solid rgb(255, 0, 0);
+  padding: 30px;
+  flex: 1;
+  align-items: center;
+}
+.middle-offer-content img {
+  align-items: center;
+  position: relative;
+}
+.right-offer-content {
+  width: 33%;
+  flex: 1;
+  padding: 20px;
+  padding-top: 112px;
+  text-align: center;
+}
+.right-offer-content h3 {
+  color: rgb(255, 0, 0);
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center;
+  /* margin-top: 112px */
+}
+.right-offer-content p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  padding-left: 112px;
+  font-weight: 400;
+  margin-top: 16px;
+  text-align: left;
+}
+.right-offer-content img {
+  width: 50%;
+  margin-top: 46px;
 }
