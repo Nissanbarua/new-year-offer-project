@@ -235,3 +235,35 @@ body {
   width: 50%;
   margin-top: 46px;
 }
+
+/* holiday styles */
+.holiday-section-container{
+  width: 1320px;
+height: 986.07px;
+margin: 120px auto;
+text-align: center;
+}
+.holiday-header p{
+  color: rgb(7, 2, 17);
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+}
+.holiday-header h1{
+  font-family: Merriweather;
+font-size: 72px;
+font-weight: 900;
+color: rgb(255, 0, 0);
+margin-top: 16px;
+}
+.holiday-header span{
+  color: rgb(7, 2, 17);
+}
+.holiday-subtitle{
+  color: rgba(7, 2, 17, 0.6);
+font-family: Inter;
+font-size: 20px;
+font-weight: 500;
+margin-top: 28px;
+}
+/* portfolio styles */
