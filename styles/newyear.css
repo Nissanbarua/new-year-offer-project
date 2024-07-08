@@ -16,7 +16,7 @@ body {
       rgba(7, 2, 17, 0) 100%
     ),
     url(../images/Banner\ Image.png);
-    background-repeat: no-repeat;
+  background-repeat: no-repeat;
 
   display: flex;
   /* position: fixed; */
@@ -46,37 +46,83 @@ body {
   text-align: center;
 }
 /* main section style */
-.second-section-container{
-margin: 120px auto;
-height: 806px;
-width: 802px;
-align-items: center;
+.second-section-container {
+  margin: 120px auto;
+  height: 806px;
+  width: 802px;
+  align-items: center;
 }
-.second-section-content{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.second-section-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.second-section-content h1{
-color: rgb(255, 0, 0);
-font-size: 88px;
-font-weight: 700;
-/* line-height: 107px; */
-margin-bottom: 48px;
+.second-section-content h1 {
+  color: rgb(255, 0, 0);
+  font-size: 88px;
+  font-weight: 700;
+  /* line-height: 107px; */
+  margin-bottom: 48px;
+}
+.second-section-content p {
+  color: rgb(255, 0, 0);
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+.second-section-content h3 {
+  color: rgb(7, 2, 17);
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+  /* line-height: 58px; */
+  margin-bottom: 48px;
+}
+/* midnight-party styles */
+.midnight-section-container {
+  background-image: linear-gradient(
+      90deg,
+      rgb(7, 2, 17),
+      rgba(7, 2, 17, 0) 100%
+    ),
+    url(../images/Vectorrr.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  max-width: 1320px;
+  min-height: 600px;
+  margin: 0 auto;
+  display: flex;
+}
+.midnight-left-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  margin: 60px;
+}
 
+.midnight-left-content h2 {
+  color: rgb(255, 255, 255);
+  font-size: 64px;
+  font-weight: 900;
 }
-.second-section-content p{
-    color: rgb(255, 0, 0);
-font-size: 24px;
-font-weight: 500;
-margin-bottom: 16px;
+
+.midnight-left-content p {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 24px;
 }
-.second-section-content h3{
-    color: rgb(7, 2, 17);
-font-family: Inter;
-font-size: 48px;
+.midnight-left-content span{
+  color: rgb(255, 255, 255);
+  font-size: 20px;
 font-weight: 700;
-/* line-height: 58px; */
-margin-bottom: 48px;
+align-items:start;
+margin-top: 48px;
+}
+.midnight-right-content {
+  margin: 68px 108px;
 }
