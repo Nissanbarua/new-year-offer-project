@@ -16,9 +16,12 @@ body {
       rgba(7, 2, 17, 0) 100%
     ),
     url(../images/Banner\ Image.png);
+    background-repeat: no-repeat;
+
   display: flex;
-  height: 600px;
-  width: 1320px;
+  /* position: fixed; */
+  min-height: 600px;
+  max-width: 1320px;
   justify-content: center;
   align-items: center;
   border-radius: 16px;
@@ -30,19 +33,15 @@ body {
 
 .banner-subtitle {
   color: rgb(255, 255, 255);
-  font-family: Merriweather;
   font-size: 32px;
   font-weight: 400;
   line-height: 40px;
-  letter-spacing: 0%;
   text-align: center;
 }
 .banner-title {
   color: rgb(255, 255, 255);
-  font-family: Merriweather;
   font-size: 72px;
   font-weight: 900;
   line-height: 95px;
-  letter-spacing: 0%;
   text-align: center;
 }
